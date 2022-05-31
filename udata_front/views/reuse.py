@@ -50,6 +50,7 @@ class ReuseListView(SearchView):
     context_name = 'reuses'
     template_name = 'reuse/list.html'
     search_adapter = ReuseSearch
+    page_size = 3
 
 
 navbar = nav.Bar('edit_reuse', [
